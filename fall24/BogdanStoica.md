@@ -1,0 +1,7 @@
+### Understanding, Characterizing and Exposing Deeply-Nested Bugs in Large-Scale Systems
+        
+### Abstract
+
+Deeply-nested bugs in large-scale software systems are faults that occur under rare and specific conditions like complex timing sequences, infrequent external events, or odd workload patterns. They often lead to performance degradation, resource exhaustion, or inconsistent behavior, without necessarily causing immediate failures. These bugs present significant challenges due to their dependence on rare triggering conditions, non-fail-stop manifestations, and their ability to evade detection despite extensive in-house testing, making them difficult to detect with traditional testing methods.
+
+To address this, my work introduces a suite of techniques that tailor fault injection strategies to the characteristics of each bug type, repurpose existing tests to enhance coverage and detection, and leverage large language models to augment code analysis. As an example, I will first talk about bugs in retry logic --- mechanism-level issues that manifest due to problematic retry functionality or policies. Next, I will discuss concurrent memory order violations --- statement-level concurrency issues caused by the incorrect timing between a memory access to a particular object and that object’s initialization or deallocation. Finally, I will talk about how the lessons we learned can help tackle additional classes of deeply-nested bugs.
