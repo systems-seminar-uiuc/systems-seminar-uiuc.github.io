@@ -1,0 +1,9 @@
+# [Fray: An Efficient General-Purpose Concurrency Testing Platform for the JVM](https://aoli.al/papers/fray-oopsla.pdf) 
+
+## Abstract
+
+Concurrency bugs are hard to discover and reproduce, even in well-synchronized programs that are free of data races. Thankfully, prior work on controlled concurrency testing (CCT) has developed sophisticated algorithms to effectively search over the space of thread interleavings. Unfortunately, in practice, these techniques cannot easily be applied to real-world Java programs due to the difficulties of controlling concurrency in the presence of the managed runtime and complex synchronization primitives. So, mature Java projects that make heavy use of concurrency still rely on naive repeated stress testing in a loop. This talk will present Fray, our new framework for push-button concurrency testing of JVM programs that is explicitly designed with the goal of general-purpose applicability. Fray employs a concurrency control mechanism we call “shadow locking”, which guarantees soundness and completeness of expressiveness under a reasonable set of assumptions, and is more efficient than classical OS-level or JVM-simulation-based approaches to managing concurrency. Fray works out-of-the-box on production-grade software such as Apache Kafka, Apache Lucene, and Google Guava—we have shown how hundreds of existing unit tests in these mature projects can fail under certain interleavings, and have helped developers confirm and debug over a dozen new bugs.
+
+## Bio
+
+Ao Li is a PhD candidate in the School of Computer Science at Carnegie Mellon University. He works on designing and building tools that make complex systems easier to debug and test. He has helped uncover hundreds of software bugs in widely-used open-source and commercial software, and his tools are being used by companies like Antithesis, Amazon, and Microsoft.
