@@ -2,12 +2,10 @@
 
 ## Basic Concepts (+ Theoretical)
 
-- **[Mind the gaps: The fraught road to quantum advantage](https://arxiv.org/abs/2510.19928) (Arxiv 2025)
 - [Beyond NISQ: The Megaquop Machine](https://dl.acm.org/doi/10.1145/3723153) (ACM Quant Comp 2025)
 - [The vast world of quantum advantage](https://arxiv.org/abs/2508.05720) (2025)
 - [A Framework for Quantum Advantage](https://arxiv.org/abs/2506.20658) (2025) (By IBM)
 - [Myths around quantum computation before full fault tolerance: What no-go theorems rule out and what they don\'t](https://arxiv.org/abs/2501.05694) (2025)
-- **[Quantum Computing in the NISQ era and beyond](https://arxiv.org/abs/1801.00862) (Arxiv 2018)
 - [Adiabatic Quantum Computing](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.90.015002) (Phys Rev 2018)
 - [Quantum computing and the entanglement frontier](https://arxiv.org/abs/1203.5813) (2012)
 - [Implementing the Quantum von Neumann Architecture with Superconducting Circuits](https://www.science.org/doi/10.1126/science.1208517) (Science, 2011)
@@ -17,8 +15,19 @@
 
 ## Overview Papers
 
+- [The Grand Challenge of Quantum Applications](https://arxiv.org/abs/2511.09124) (Arxiv 2025, by Google)
+- **[Mind the gaps: The fraught road to quantum advantage](https://arxiv.org/abs/2510.19928) (Arxiv 2025)
 - [The Role of Quantum Computing in Advancing Scientific High-Performance Computing: A perspective from the ADAC Institute](https://arxiv.org/abs/2508.11765) (2025, by Oak Ridge)
   - Gives a good overview, should read the section on benchmarking as well.
+- **[Quantum Computing in the NISQ era and beyond](https://arxiv.org/abs/1801.00862) (Arxiv 2018)
+
+## Quantum Workflows
+
+- [Molecular Quantum Computations on a Protein](https://arxiv.org/abs/2512.17130) (Arxiv 2026, by Cleveland Clinic, IBM)
+- [GPU-Accelerated Selected Basis Diagonalization with Thrust for SQD-based Algorithms](https://arxiv.org/abs/2601.16637) (Arxiv 2026, by IBM)
+- [Scaling Sample-Based Quantum Diagonalization on GPU-Accelerated Systems using OpenMP Offload](https://arxiv.org/abs/2601.16169) (Arxiv 2026, by IBM)
+- [Closed-loop calculations of electronic structure on a quantum processor and a classical supercomputer at full scale](https://arxiv.org/abs/2511.00224) (Arxiv 2025, by RIKEN, IBM)
+- [Chemistry Beyond the Scale of Exact Diagonalization on a Quantum-Centric Supercomputer](https://arxiv.org/abs/2405.05068) (Arxib 2025, by RIKEN, IBM)
 
 ## Benchmarking
 
@@ -32,6 +41,11 @@
 - [SupermarQ: A Scalable Quantum Benchmark Suite](https://ieeexplore.ieee.org/document/9773202) (HPCA 2022)
 - [A volumetric framework for quantum computer benchmarks](https://quantum-journal.org/papers/q-2020-11-15-362/) (Quantum Journal 2020)
 
+## Developing Abstractions
+
+- [Productive Quantum Programming Needs Better Abstract Machines](https://arxiv.org/abs/2505.00718) (Arxiv, 2025)
+- [Dependable Classical-Quantum Computer Systems Engineering](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1520903/full) (White Paper, 2024)
+
 ## Hybrid Classical-Quantum Systems
 
 - [Bridging paradigms: Designing for HPC-Quantum convergence](https://www.sciencedirect.com/science/article/pii/S0167739X25002754) (2026, Future Generation Computer Systems)
@@ -40,7 +54,6 @@
 - [A Typology of Quantum-Classical Faults](https://ieeexplore.ieee.org/document/11071596) (DSNW 2025)
 - [Quantum Virtual Machines](https://www.usenix.org/conference/osdi25/presentation/tao) (OSDI 2025)
 - [QOS: Quantum Operating System](https://www.usenix.org/conference/osdi25/presentation/giortamis) (OSDI 2025)
-- [Dependable Classical-Quantum Computer Systems Engineering](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1520903/full) (White Paper, 2024)
 - [SCIM MILQ: An HPC Quantum Scheduler](https://ieeexplore.ieee.org/document/10821104) (QCE 2024)
 - [A Conceptual Architecture for a Quantum-HPC Middleware](https://ieeexplore.ieee.org/document/10234288) (QSW, 2023)
 - [XACC: A System-Level Software Infrastructure for Heterogeneous Quantum-Classical Computing](https://arxiv.org/abs/1911.02452) (2019, by Oak Ridge Lab)
