@@ -1,0 +1,163 @@
+
+body {
+    color: #cccccc;
+    background-color: #1f1f1f;
+    font-family: Arial,Helvetica;
+    font-size: 11pt
+}
+
+a {
+    color: #33ccff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table.layout td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+div.title .name {
+    color: #ffffff;
+    font-size: 26pt;
+    font-weight: bold;
+}
+
+div.title .fall-term {
+    color: orange;
+    font-size: 20pt;
+    font-weight: bold;
+}
+div.title .spring-term {
+    color: limegreen;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+div.title .winter-term {
+    color: lightblue;
+    color: #33ccff;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+div.title .time {
+    color: #dddddd;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#prev {
+    width: 80px;
+    padding: 20px;
+    font-size: 11pt;
+    background-color: #4d4b49;
+    text-align: right;
+
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#prev a {
+    color: #cccccc;
+}
+
+div.prev {
+    width: 90px;
+    padding: 20px;
+    font-size: 11pt;
+    background-color: #4d4b49;
+    text-align: right;
+
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+div.prev a {
+    color: #cccccc;
+}
+
+div.description {
+    font-size: 11pt;
+}
+
+table.papers {
+    margin-top: 25px;
+    border-collapse: collapse;
+    font-size: 11pt;
+}
+
+table.papers td, table.papers th {
+    vertical-align: middle;
+    padding: 8px;
+    border: 0px;
+    border-bottom: 1px dotted #666;
+}
+
+table.papers td.address {
+    text-align: right;
+    border-bottom: 0px;
+}
+
+table.papers th {
+    color: #ffffff;
+    text-align: left;
+    font-size: 12pt;
+    border-bottom: 6px solid #1f1f1f;
+    border-width: 6px;
+
+    background-color: darkblue; /* fallback */
+    background: linear-gradient(to bottom, blue, darkblue);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(blue), to(darkblue)); /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-linear-gradient(top, lightblue, #33ccff); /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, blue, darkblue); /* Safari 5.1, Chrome 10+ */
+    background: -moz-linear-gradient(top, blue, darkblue); /* Firefox 3.6+ */
+    background: -ms-linear-gradient(top, blue, darkblue); /* IE 10 */
+    background: -o-linear-gradient(top, blue, darkblue); /* Opera 11.10+ */
+}
+
+table.papers th.date {
+    min-width: 50px;
+}
+
+table.papers th.paper {
+    min-width: 500px;
+}
+
+table.papers th.speaker {
+    width: 20%;
+}
+
+table.papers a {
+    color: #ffffff;
+    font-size: 12pt;
+}
+
+table.papers .title {
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+table.papers a.mailto {
+    color: #33ccff;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: normal;
+    text-align: right;
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+
+.talk {
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: bold;
+}
